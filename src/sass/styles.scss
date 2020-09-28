@@ -12,4 +12,33 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  padding-top: 100px;
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  font-size: 24px;
+  text-transform: uppercase;
+  border: green 3px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  &:hover {
+    width: 130px;
+    height: 80px;
+    font-size: 34px;
+  }
+}
+
+.start--btn {
+  color: blue;
+  background-color: palevioletred;
+  margin-right: 30px;
+}
+
+.stop--btn {
+  color: red;
+  background-color: sandybrown;
 }
