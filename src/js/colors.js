@@ -6,3 +6,5 @@ const colors = [
   '#009688',
   '#795548',
 ];
+
+export default colors;
